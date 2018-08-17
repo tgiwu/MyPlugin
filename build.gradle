@@ -1,0 +1,26 @@
+apply plugin: 'maven'
+apply plugin: 'java'
+apply plugin: 'groovy'
+
+group 'com.zhy'
+version '1.7'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    implementation 'com.sun.jersey:jersey-client:1.14'
+    implementation 'org.codehaus.groovy:groovy-all:2.4.12'
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
+    compileOnly gradleApi()
+}
+
+uploadArchives {
+    repositories {
+        mavenDeployer{
+            repository (url: uri('/Users/yangzhang/IdeaProjects/myRepo'))
+        }
+    }
+}
