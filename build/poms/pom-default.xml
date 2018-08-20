@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.zhy</groupId>
   <artifactId>myplugin</artifactId>
-  <version>1.7</version>
+  <version>1.29</version>
   <dependencies>
     <dependency>
       <groupId>com.sun.jersey</groupId>

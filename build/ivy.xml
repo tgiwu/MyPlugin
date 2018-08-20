@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
-  <info organisation="com.zhy" module="myplugin" revision="1.7" status="integration" publication="20180817120514"/>
+  <info organisation="com.zhy" module="myplugin" revision="1.29" status="integration" publication="20180820180106"/>
   <configurations>
     <conf name="annotationProcessor" visibility="private"/>
     <conf name="apiElements" visibility="private" extends="runtime"/>

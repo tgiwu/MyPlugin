@@ -22,3 +22,7 @@ plugin类的路径可以随意，但一般习惯上按group层级建立，这个
 引用插件时需要在buildscript中dependencies加入classpath内容是group:name:version,
 并且在repositories中加入maven地址再在需要引入的模块中加入代码apply plugin: properties文件名称，不要扩展名。
 gradle同步后就可以在任务列表的other中找到插件中定义的任务
+
+
+添加重命名apk包功能只需引入插件，编译完成时会自动调用重命名方法格式为   
+{modelName}\_v{Version}\_{buildType}\_{buildTime}.apk

@@ -3,7 +3,7 @@ apply plugin: 'java'
 apply plugin: 'groovy'
 
 group 'com.zhy'
-version '1.7'
+version '1.29'
 
 repositories {
     mavenCentral()
